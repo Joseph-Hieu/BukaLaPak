@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BukaLaPak</string>
+    <string name="rd">Rush Delivery</string>
+    <string name="go">Gratis Ongkir</string>
+    <string name="v">Voucherku</string>
+    <string name="bf">Barang Favorit</string>
+    <string name="su">Spesial Untukmu</string>
+    <string name="ls">Lihat Semua</string>
+    <string name="mf">Menu Favorit"</string>
+    <string name="search_title">BukaLaPak</string>
+</resources>

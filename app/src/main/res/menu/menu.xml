@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search"
+          app:queryHint="@string/search_title"
+          android:title="@string/search_title"
+          android:icon="@drawable/search"
+          android:editTextColor="#000"
+          app:showAsAction="collapseActionView|ifRoom"
+          app:actionViewClass="android.widget.SearchView"
+    />
+
+    <item
+        android:id="@+id/action_qr"
+        android:icon="@drawable/qr"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/action_notification"
+            android:icon="@drawable/noti"
+            android:title=""
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/action_mess"
+            android:icon="@drawable/mess"
+            android:title=""
+            app:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/action_scart"
+            android:icon="@drawable/cart"
+            android:title=""
+            app:showAsAction="ifRoom"/>
+
+</menu>
